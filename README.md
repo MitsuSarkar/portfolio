@@ -2,7 +2,7 @@
 
 A modern, data-driven portfolio showcasing my work in financial analysis, analytics, and development.
 
-🔗 Live: https://yourusername.github.io/portfolio/
+🔗 Live: https://mitsusarkar.github.io/portfolio/
 
 ---
 
