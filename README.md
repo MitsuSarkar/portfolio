@@ -63,8 +63,8 @@ This portfolio highlights:
 
 If you'd like to connect, collaborate, or discuss opportunities:
 
-📧 Email: your-email@example.com  
-💼 LinkedIn: https://linkedin.com/in/yourprofile  
+📧 Email: sumitsarkar2222@gmail.com 
+💼 LinkedIn: https://www.linkedin.com/in/mitsusarkar
 
 ---
 
