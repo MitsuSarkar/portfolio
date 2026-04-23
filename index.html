@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumit Sarkar — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">Mitsu<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+  <a href="#contact" class="nav-cta">Let's Talk</a>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="theme-icon">☀️</span>
+  </button>
+</div>
+
+<button class="hamburger" id="hamburger" aria-label="Menu">
+  <span></span><span></span>
+</button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#work" onclick="closeMobile()">Work</a></li>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#services" onclick="closeMobile()">Services</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+     <div class="hero-inner"></div>
+    <div class="hero-badge">✦ Available for work</div>
+    <h1 class="hero-headline">
+      <span class="line">Financial</span>
+      <span class="line accent-line">Analyst<em class="star-icon">✦</em></span>
+      <span class="line">& Developer</span>
+    </h1>
+    <p class="hero-sub">
+      Driven by curiosity and a passion for finance and technology, I enjoy solving real-world problems through data and code. I specialize in analytics, financial modeling, and building tools that simplify complex information.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See My Work</a>
+      <a href="#contact" class="btn btn-ghost">Book a Call →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">20+</span>
+        <span class="stat-label">Projects Done</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">4yr</span>
+        <span class="stat-label">Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Client Satisfaction</span>
+      </div>
+    </div>
+    <div class="hero-scroll-hint"></div>
+  </section>
+
+  <!-- ========== TICKER ========== -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <div class="ticker-group">
+      <span class="ticker-item"><img src="icons/logos/sql.svg" alt="SQL"> SQL</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/python.svg" alt="Python"> Python</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/RStudio.svg" alt="RStudio"> RStudio</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/tableau.svg" alt="Tableau"> Tableau</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/powerBI.svg" alt="Power BI"> Power BI</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/excel.svg" alt="Excel"> Excel</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/EViews.svg" alt="Eviews"> Eviews</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/Jira.svg" alt="Jira"> Jira</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/b.svg" alt="Bloomberg"> Bloomberg</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/JavaScript.svg" alt="Js"> Js</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/React.svg" alt="React"> React</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/graph.svg" alt="TT platform"> TT platform</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/computer.svg" alt="Refinitiv workspace"> Refinitiv workspace</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/six.svg" alt="Six Sigma"> Six Sigma</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/SAP.svg" alt="SAP"> SAP</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/SB.svg" alt="Statistical Analysis"> Statistical Analysis</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/ml.svg" alt="ML Algorithms"> ML Algorithms</span><span class="sep">✦</span>
+    </div>
+
+    <div class="ticker-group" aria-hidden="true">
+      <span class="ticker-item"><img src="icons/logos/sql.svg" alt="SQL"> SQL</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/python.svg" alt="Python"> Python</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/RStudio.svg" alt="RStudio"> RStudio</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/tableau.svg" alt="Tableau"> Tableau</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/powerBI.svg" alt="Power BI"> Power BI</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/excel.svg" alt="Excel"> Excel</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/EViews.svg" alt="Eviews"> Eviews</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/Jira.svg" alt="Jira"> Jira</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/b.svg" alt="Bloomberg"> Bloomberg</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/JavaScript.svg" alt="Js"> Js</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/React.svg" alt="React"> React</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/graph.svg" alt="TT platform"> TT platform</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/computer.svg" alt="Refinitiv workspace"> Refinitiv workspace</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/six.svg" alt="Six Sigma"> Six Sigma</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/SAP.svg" alt="SAP"> SAP</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/SB.svg" alt="Statistical Analysis"> Statistical Analysis</span><span class="sep">✦</span>
+      <span class="ticker-item"><img src="icons/logos/ml.svg" alt="ML Algorithms"> ML Algorithms</span><span class="sep">✦</span>
+    </div>
+  </div>
+</div>
+
+  <!-- ========== WORK ========== -->
+  <section class="work section" id="work">
+    <div class="section-header">
+      <span class="section-tag">Selected Work</span>
+      <h2 class="section-title">Projects that <br><em>speak for themselves</em></h2>
+    </div>
+    <div class="projects-grid">
+
+      <article 
+      class="project-card project-large" 
+      data-color="#FF5E1A">
+        <div class="project-img" style="background:#1a1a2e;">
+          <img src="images/1.jpg" alt="Pulseledger">
+        </div>
+        <div class="project-info">A stock tracking and analytics project focused on market monitoring, dashboarding, and portfolio-style insights with a clean interactive UI.</span>
+          <div class="project-meta">
+            <span class="project-tag">python</span>
+            <span class="project-tag">Web</span>
+          </div>
+          <h3 class="project-title">Pulseledger <br>for stocks</h3>
+          <a href="https://github.com/MitsuSarkar/pulseledger" target="_blank" class="project-link">View Project →</a>
+        </div>
+      
+      </article>
+      
+
+      <article class="project-card" data-color="#9B5DE5">
+        <div class="project-img" style="background:#1c0535;">
+          <img src="images/2.png" alt="Admin Dashboard">
+          </div>
+        <div class="project-info">A responsive React-based admin dashboard for visualizing data, managing workflows, and improving user interaction.</span>
+          <div class="project-meta">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">UI/UX</span>
+            <span class="project-tag">Js</span>
+          </div>
+          <h3 class="project-title">Admin Dashboard</h3>
+          <a href="https://mitsusarkar.github.io/Syncfusion-React.js-dashboard/" target="_blank" class="project-link">View Project →</a>
+
+        </div>
+      </article>
+
+      <article class="project-card" data-color="#9B5DE5">
+        <div class="project-img" style="background:#1c0535;">
+          <img src="images/3.png" alt="Spotify Dashboard">
+          </div>
+        <div class="project-info">A data-driven dashboard analyzing Spotify streaming trends, user behavior, and music insights using Power BI.</span>
+          <div class="project-meta">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">powerBI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">Spotify Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Spotify-Dashboard" target="_blank" class="project-link">View Project →</a>
+
+        </div>
+      </article>
+
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/4.png" alt="Jira Cloud">
+          </div>
+        </div>
+        <div class="project-info">A workflow and project tracking dashboard built in Jira Cloud to manage tasks, automation, and team productivity.</span>
+          <div class="project-meta">
+            <span class="project-tag">Jira Cloud</span>
+            <span class="project-tag">HTML</span>
+          </div>
+          <h3 class="project-title">Jira Cloud<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Jira-Cloud-Project" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/5.png" alt="Amazon Dashboard">
+          </div>
+        </div>
+        <div class="project-info">A Power BI dashboard analyzing Amazon sales data, revenue trends, and product performance insights.</span>
+          <div class="project-meta">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">Amazon<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Amazon-dashboard-power-bi" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+        <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/6.png" alt="Customer Dashboard">
+          </div>
+        </div>
+        <div class="project-info">A predictive analytics dashboard identifying customer churn and risk patterns using data-driven insights.
+          <div class="project-meta">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">Customer Risk Analysis<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Churn-BI-project/tree/main" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/7.png" alt="Diversity & Inclusion">
+          </div>
+        </div>
+        <div class="project-info">A data visualization dashboard highlighting workforce diversity trends and inclusion metrics.
+          <div class="project-meta">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">Diversity & Inclusion<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Diversity-Inclusion/tree/main" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/8.png" alt="Call Center">
+          </div>
+        </div>
+        <div class="project-info">A performance dashboard tracking call center KPIs, response times, and customer satisfaction metrics.
+          <div class="project-meta">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">Call Center<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Call-center-BI-project" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/9.png" alt="GAME SALES">
+          </div>
+        </div>
+        <div class="project-info">A sales analytics dashboard visualizing global game sales trends, revenue distribution, and platform performance.
+          <div class="project-meta">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">Excel</span>
+          </div>
+          <h3 class="project-title">GAME SALES<br>Dashboard</h3>
+          <a href="https://github.com/MitsuSarkar/Game-sales/tree/main" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/10.png" alt="ERP Suit">
+          </div>
+        </div>
+        <div class="project-info">A full-stack ERP system for managing business operations, inventory, and workflows in a structured environment.
+          <div class="project-meta">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Vite</span>
+            <span class="project-tag">SQLite</span>
+          </div>
+          <h3 class="project-title">ERP Suit</h3>
+          <a href="https://github.com/MitsuSarkar/fashion-erp-suite" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/11.gif" alt="Core Panda">
+          </div>
+        </div>
+        <div class="project-info">A lightweight system utility that visualizes CPU usage dynamically through an animated tray application.
+          <div class="project-meta">
+            <span class="project-tag">C#</span>
+            <span class="project-tag">NET 8</span>
+          </div>
+          <h3 class="project-title">Core Panda</h3>
+          <a href="https://github.com/MitsuSarkar/CorePanda" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/12.png" alt="Fllowbellum">
+          </div>
+        </div>
+        <div class="project-info">A CAD-based mechanical design project focused on modeling and engineering product concepts.
+          <div class="project-meta">
+            <span class="project-tag">SolidWorks</span>
+            <span class="project-tag">CAD</span>
+          </div>
+          <h3 class="project-title">Fllowbellum</h3>
+          <a href="https://github.com/MitsuSarkar/Flowbellum-?tab=readme-ov-file" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+      </article>
+      <article class="project-card" data-color="#00D4FF">
+        <div class="project-img" style="background:#001a2c;">
+          <div class="project-placeholder">
+                  <img src="images/13.png" alt="LendingCLub Analysis">
+          </div>
+        </div>
+        <div class="project-info">A financial data analysis project exploring lending risk, borrower behavior, and credit patterns using Python.
+          <div class="project-meta">
+            <span class="project-tag">Jupyter</span>
+            <span class="project-tag">Python</span>
+          </div>
+          <h3 class="project-title">LendingClub Analysis</h3>
+          <a href="https://github.com/MitsuSarkar/LendingClub-Data-Analysis" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="about-inner">
+      <div class="about-left">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">I turn ideas into <br><em>visual stories</em></h2>
+        <p class="about-body">
+          Hey! I'm <strong>Sumit Sarkar</strong>, a finance and tech enthusiast who builds data-driven products and analytical solutions. I combine financial thinking with modern tools like Python, SQL, and Power BI to transform raw data into meaningful insights and intuitive experiences.
+        </p>
+        <p class="about-body">
+          My work lives at the intersection of strategy and aesthetics. I don't just make things look good, I make them work, convert, and grow.
+        </p>
+        <div class="about-links">
+          <a href="files/resume.pdf" class="btn btn-primary">Download CV</a>
+          <a href="https://github.com/MitsuSarkar" target="_blank" class="social-link">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/mitsusarkar" target="_blank" class="social-link">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="about-img-wrap">
+          <!-- Replace with: <img src="images/me.jpg" alt="Your Name"> -->
+          <img src="images/me.jpg" alt="Sumit Sarkar">
+          <div class="about-img-badge">
+            <span class="badge-text">Open to</span>
+            <span class="badge-strong">Work ✦</span>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="skill-pill">SQL</div>
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">R</div>
+          <div class="skill-pill">Tableau</div>
+          <div class="skill-pill">Microsoft Power BI</div>
+          <div class="skill-pill">Eviews</div>
+          <div class="skill-pill">Jira</div>
+          <div class="skill-pill">MySQL</div>
+          <div class="skill-pill">SQL Server</div>
+          <div class="skill-pill">Bloomberg</div>
+          <div class="skill-pill">Excel</div>
+          <div class="skill-pill">PowerPoint</div>
+          <div class="skill-pill">React</div>
+          <div class="skill-pill">SAP</div>
+          <div class="skill-pill">CSS</div>
+          <div class="skill-pill">Motion</div>
+          <div class="skill-pill">Webflow</div>
+          <div class="skill-pill">Illustrator</div>
+          <div class="skill-pill">HTML</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services section" id="services">
+  <div class="section-header">
+    <span class="section-tag">Core Expertise</span>
+    <h2 class="section-title">What I bring <br><em>to the table</em></h2>
+  </div>
+  <div class="services-list">
+
+    <div class="service-item">
+      <div class="service-top">
+        <span class="service-num">01</span>
+        <span class="service-icon">◉</span>
+      </div>
+      <h3 class="service-name">Financial Analysis</h3>
+      <p class="service-desc">Analyzing financial data, identifying trends, and supporting better business decisions through structured insight.</p>
+      <div class="service-tags">
+        <span>Valuation</span><span>Forecasting</span><span>Reporting</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-top">
+        <span class="service-num">02</span>
+        <span class="service-icon">◈</span>
+      </div>
+      <h3 class="service-name">Data Analytics</h3>
+      <p class="service-desc">Using Python, SQL, Power BI, and Excel to clean, analyze, and visualize data for actionable insights.</p>
+      <div class="service-tags">
+        <span>Python</span><span>SQL</span><span>Power BI</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-top">
+        <span class="service-num">03</span>
+        <span class="service-icon">◎</span>
+      </div>
+      <h3 class="service-name">Dashboard & Reporting</h3>
+      <p class="service-desc">Building interactive dashboards and reporting solutions that simplify complex information for stakeholders.</p>
+      <div class="service-tags">
+        <span>Dashboards</span><span>KPI Tracking</span><span>Visualization</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-top">
+        <span class="service-num">04</span>
+        <span class="service-icon">✦</span>
+      </div>
+      <h3 class="service-name">Process Improvement</h3>
+      <p class="service-desc">Improving workflows, automating repetitive processes, and creating tools that increase efficiency and accuracy.</p>
+      <div class="service-tags">
+        <span>Automation</span><span>Optimization</span><span>Problem Solving</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section">
+  <span class="section-tag centered">Professional Experience</span>
+  <h2 class="section-title centered">Where I’ve <em>worked</em></h2>
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card current-role testimonial-highlight">
+      <div class="current-badge" style="--badge-color:#ebe8ce;">
+  Currently Working</div>
+  <p class="testimonial-text">Currently working as a Capital Markets Analyst at Lynam Partners, supporting live capital raising mandates through sector research, investor targeting, financial analysis, and preparation of investor materials. My role includes working on capital structure analysis, funding strategies, due diligence, and transaction support for institutional fundraising processes.</p>
+  <div class="testimonial-author">
+    <div class="author-avatar" style="background:#158d2f;">01</div>
+    <div>
+      <strong>Capital Markets Analyst</strong>
+      <span>Lynam Partners | Jan 2026 – Present</span>
+    </div>
+  </div>
+</div>
+    <div class="testimonial-card">
+      <p class="testimonial-text">Worked on data-driven tasks involving analytics, structured problem solving, and model evaluation. Contributed to projects requiring accuracy, reasoning, and detailed output review.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#FF5E1A;">02</div>
+        <div>
+          <strong>Prompt Engineer</strong>
+          <span>Outlier AI</span>
+          <span>| 2024-2025</span>
+        </div>
+      </div>
+    </div>
+<div class="testimonial-card card-green">
+  <p class="testimonial-text">Completed the JPMorgan Chase Investment Banking Analyst simulation, where I built DCF valuation models, performed sensitivity analysis, and assessed financial projections under different market disruption scenarios. This experience strengthened my valuation, modelling, and analytical decision-making skills.</p>
+  <div class="testimonial-author">
+    <div class="author-avatar" style="background:#00D4FF;">03</div>
+    <div>
+      <strong>Investment Banking Analyst Simulation</strong>
+      <span>JPMorgan Chase | Forage | 2023</span>
+    </div>
+  </div>
+</div>
+<div class="testimonial-card">
+  <p class="testimonial-text">Completed the PwC Power BI Virtual Experience, gaining hands-on exposure to dashboarding, data visualization, and business reporting. This strengthened my ability to communicate insights clearly and build decision-oriented analytics solutions.</p>
+  <div class="testimonial-author">
+    <div class="author-avatar" style="background:#9B5DE5;">04</div>
+    <div>
+      <strong>Power BI Virtual Experience</strong>
+      <span>PwC | 2023</span>
+    </div>
+  </div>
+</div>
+
+    <div class="testimonial-card card-blue">
+      <p class="testimonial-text">Built finance and analytics projects focused on dashboards, visualization, financial modeling, and business insights using Python, SQL, Excel, and Power BI.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#C8FF00; color:#000;">05</div>
+        <div>
+          <strong>Finance & Data Projects</strong>
+          <span>Portfolio Work</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">Applied financial analysis, reporting, and structured data interpretation to solve practical problems and communicate results clearly.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#bb4c4c;">06</div>
+        <div>
+          <strong>Analyst-Focused Experience</strong>
+          <span>Finance & Analytics</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="contact-inner">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="contact-headline">Ready to build <br>something <em>great</em>?</h2>
+      <p class="contact-sub">Drop me a message and I'll get back within 24 hours.</p>
+      <div class="contact-methods">
+        <a href="mailto:sumitsarkar2222@gmail.com" class="contact-method">
+          <span class="cm-label">Email</span>
+          <span class="cm-value">Sumitsarkar2222@gmail.com ↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/mitsusarkar" target="_blank" class="contact-method">
+          <span class="cm-label">LinkedIn</span>
+          <span class="cm-value">Connect with me ↗</span>
+        <a href="https://calendly.com/" target="_blank" class="contact-method">
+          <span class="cm-label">Schedule</span>
+          <span class="cm-value">Book a 30min call ↗</span>
+        </a>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="nav-logo">Mitsu<span class="dot">.</span></span>
+        <p>Crafting digital experiences <br>that leave a mark.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <span class="footer-col-title">Pages</span>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#services">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Social</span>
+          <a href="https://www.linkedin.com/in/mitsusarkar" target="_blank">LinkedIn</a>
+          <a href="https://github.com/MitsuSarkar" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sumit Sarkar. All rights reserved.</span>
+      <span>Made with passion ✦</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
