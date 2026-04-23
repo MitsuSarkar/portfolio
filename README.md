@@ -1,87 +1,73 @@
-# 🚀 Portfolio — Viral Template Style
+# Sumit Sarkar — Portfolio
 
-A fully editable HTML/CSS/JS portfolio inspired by the Viral Framer template.
-No frameworks required — open directly in VS Code and edit freely!
+A modern, data-driven portfolio showcasing my work in financial analysis, analytics, and development.
 
----
-
-## 📁 File Structure
-
-```
-portfolio/
-├── index.html      ← Main page structure (content lives here)
-├── style.css       ← All visual styles, colors, fonts, layout
-├── script.js       ← Interactions: cursor, scroll animations, nav
-├── images/         ← Put your photos and project images here
-└── README.md       ← This file
-```
+🔗 Live: https://yourusername.github.io/portfolio/
 
 ---
 
-## ✏️ How to Customize
+## 👨‍💻 About Me
 
-### 1. Personal Info — `index.html`
-- Replace **"Your Name"** with your actual name
-- Update the **nav logo** (`YN.`) with your initials
-- Edit the **hero headline** and tagline
-- Fill in your **bio** in the About section
-- Update **project titles, tags, and links**
-- Replace **testimonials** with real client quotes
-- Update **email and social links** throughout
+I am a Financial Analyst and Data & Analytics Developer with a strong focus on building data-driven tools and systems that simplify complex financial information.
 
-### 2. Colors & Fonts — `style.css` (top of file)
-```css
-:root {
-  --accent:   #FF5E1A;   /* ← Main accent (orange) — change me! */
-  --accent-2: #C8FF00;   /* ← Secondary accent (lime)            */
-  --accent-3: #9B5DE5;   /* ← Tertiary accent (purple)           */
-  --bg:       #0c0c0c;   /* ← Page background                    */
-  --text:     #f0f0f0;   /* ← Main text color                    */
-}
-```
-
-### 3. Adding Project Images
-Replace the placeholder `<div class="project-placeholder">` with:
-```html
-<img src="images/project1.jpg" alt="Project Name">
-```
-
-### 4. Adding Your Photo (About section)
-Replace `<div class="about-img-placeholder">` with:
-```html
-<img src="images/me.jpg" alt="Your Name">
-```
-
-### 5. Contact Form
-The form currently shows a success message. To make it actually send emails:
-
-**Option A — Formspree (free, easy):**
-1. Sign up at https://formspree.io
-2. Get your form ID
-3. In `script.js`, uncomment and update the fetch call
-
-**Option B — EmailJS:**
-1. Sign up at https://emailjs.com
-2. Follow their SDK setup guide
+My work sits at the intersection of finance and technology — combining financial modeling, analytics, and development to create solutions that support better decision-making.
 
 ---
 
-## 🌐 To Run Locally
+## 🧠 What I Do
 
-Simply open `index.html` in your browser, or use the VS Code Live Server extension:
-1. Install "Live Server" extension in VS Code
-2. Right-click `index.html` → "Open with Live Server"
-
----
-
-## 🚀 To Deploy
-
-- **Netlify**: Drag the folder to https://app.netlify.com/drop
-- **Vercel**: `vercel --prod` in the folder
-- **GitHub Pages**: Push to a repo, enable Pages in settings
+- Financial Analysis & Modeling  
+- Data Analytics & Visualization  
+- Dashboard Development (Power BI, Excel)  
+- Building Data-Driven Tools & Applications  
+- Process Automation & Workflow Optimization  
 
 ---
 
-## 🎨 Design Credits
-Inspired by the Viral template by Hamza Ehsan on Framer Marketplace.
-Fonts: Syne (headings) + DM Sans (body) via Google Fonts.
+## 🛠 Tech Stack
+
+- **Languages:** Python, SQL, JavaScript  
+- **Analytics Tools:** Power BI, Excel, EViews, Tableau  
+- **Frameworks & Libraries:** React, Node.js  
+- **Platforms:** Jira Cloud, SAP, Bloomberg, Refinitiv  
+- **Other:** Machine Learning, Statistical Analysis, Six Sigma  
+
+---
+
+## 📊 Featured Projects
+
+### 📈 PulseLedger — Stock Analytics Tool
+A stock tracking and analytics platform for monitoring market trends, portfolio insights, and financial data in an interactive interface.
+
+### 📊 Spotify Analytics Dashboard
+A Power BI dashboard analyzing streaming trends, user behavior, and engagement metrics.
+
+### 🏦 Amazon Sales Dashboard
+A data visualization project exploring revenue trends, product performance, and sales insights.
+
+### ⚙️ Jira Finance Workflow Dashboard
+A structured workflow system to track financial variance, automate reviews, and manage reporting processes.
+
+---
+
+## 🎯 Purpose of This Portfolio
+
+This portfolio highlights:
+- My ability to work across finance and technology  
+- Practical applications of data analytics in real-world scenarios  
+- Projects that demonstrate structured thinking and problem-solving  
+
+---
+
+## 📬 Contact
+
+If you'd like to connect, collaborate, or discuss opportunities:
+
+📧 Email: your-email@example.com  
+💼 LinkedIn: https://linkedin.com/in/yourprofile  
+
+---
+
+## ⭐ Notes
+
+This portfolio is continuously evolving as I build new projects and refine existing ones.
